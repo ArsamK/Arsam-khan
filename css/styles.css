@@ -1,0 +1,150 @@
+
+
+/*********************************TAG Section***************************/
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  color: #66BFBF;
+  font-size: 4.652rem;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+h2{
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+h3{
+  color: #11999E;
+}
+p{
+  color: #40514E;
+  line-height: 2;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+  color: #EAF6F6;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-style: dotted none none;
+/*    border-color: #EAF6F6;
+  border-width: 6px; */
+  margin: 6% auto 6% ;
+  width: 5%;
+}
+/*********************************Class Section***************************/
+
+.top{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.middle{
+  margin-top: 100px;
+}
+.profile{
+  width: 25%;
+  margin: 0 auto;
+}
+.profile-pic{
+  height: 150px;
+  width: 150px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.code-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.teacher-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-me{
+  margin-bottom: 60px;
+}
+.contact-text{
+  width: 50%;
+  margin: 30px auto 60px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 08;
+  -moz-border-radius: 08;
+  border-radius: 08px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom{
+  background-color: #66BFBF;
+  padding: 30px 0;
+}
+.footer-link{
+  padding: 30px;
+  text-decoration: none;
+}
+.copyright-tag{
+  color: #EAF6F6;
+  font-size: .8rem;
+  padding-top: 20px;
+}
+/*
+I made these classes on skill-text paragraphs to showcase 'clear' property.
+.code-text{
+  clear: left;
+}
+.teacher-text{
+  clear: right;
+}
+*/
